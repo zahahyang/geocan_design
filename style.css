@@ -1347,7 +1347,7 @@ This is main CSS file that contains custom style rules used in this template
   display: flex;
   align-items: center;
   background-color: var(--dark-color);
-  padding: 40px;
+  padding: 30px 30px 45px 30px;
   margin-right: 60px;
   transition: 0.5s all ease-out;
   width: 150px;
@@ -2001,7 +2001,7 @@ body.nav-active .nav__block .nav__block-item {
 }
 
 .main-slider .slick-slide {
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-slider .slider-item {
@@ -2117,6 +2117,133 @@ body.nav-active .nav__block .nav__block-item {
   }
 
   .main-slider .slider-item img {
+    height: 100%;
+    max-width: fit-content;
+  }
+}
+/* 4.2-1 Sample page Slider
+--------------------------------------------------------------*/
+#banner{
+  position: relative;
+}
+
+.sub-slider .slick-slide {
+  height: 65vh;
+}
+
+.sub-slider .slider-item {
+  position: relative;
+}
+
+.sub-slider .banner-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 300px;
+}
+
+.sub-slider .banner-content h2.banner-title {
+  font-family: var(--heading-font);
+  font-size: 5.5em;
+  font-weight: 900;
+  color: #fff;
+  text-transform: none;
+
+}
+
+#banner .button-container {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#banner .button-container button.slick-arrow {
+  font-size: 1.6em;
+  line-height: 0;
+  font-weight: 900;
+  color: #fff;
+  background: var(--dark-color);
+  padding: 20px;
+  margin: 0;
+}
+
+#banner .button-container button.slick-arrow:hover,
+#banner .button-container button.slick-arrow:focus {
+  background: var(--accent-color);
+  outline: none;
+}
+
+@media only screen and (max-width: 1600px) {
+  .sub-slider .banner-content .btn-wrap {
+    margin: 30px 0;
+  }
+
+  .sub-slider .banner-content {
+    margin-top: 200px;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .sub-slider .banner-content h2.banner-title {
+    font-size: 4.5em;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .sub-slider .banner-content {
+    margin-top: 150px;
+  }
+
+  .sub-slider .banner-content h2.banner-title {
+    font-size: 4em;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .sub-slider .banner-content {
+    margin-top: 100px;
+  }
+
+  .sub-slider .banner-content h2.banner-title {
+    font-size: 3.5em;
+  }
+}
+
+@media only screen and (max-width: 876px) {
+  .sub-slider .banner-content h2.banner-title {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 753px) {
+  .sub-slider .banner-content h2.banner-title {
+    font-size: 3em;
+  }
+
+  #banner .button-container {
+    bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .sub-slider .banner-content {
+    margin-top: 180px;
+  }
+
+  .sub-slider .banner-content {
+    width: 90%;
+  }
+
+  .sub-slider .slider-item {
+    height: 500px;
+  }
+
+  .sub-slider .slider-item img {
     height: 100%;
     max-width: fit-content;
   }
@@ -3094,4 +3221,29 @@ footer#footer {
 
 .parallax-wrap .parallax-image {
   position: absolute;
+}
+/* 1125. Sample page CSS
+--------------------------------------------------------------*/
+p.subtitle{
+  font-size: 1.6em;
+  font-weight: 800;
+  color: #e24253;
+}
+p.information{
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+p.subtitle.service{
+  font-size: calc(1.8em + 2vw);
+  margin-top: -2rem;
+}
+.services-item.service{
+  padding-left: 4rem;
+  padding-top: 3rem;
+}
+hr.underline{
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border: 1px solid #e24253;
 }
