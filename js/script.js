@@ -105,31 +105,6 @@
     initTexts();
     animateTexts();
   }
-
-  var initSlider = function() {
-    // homepage slider | slick slider
-    $('.sub-slider').slick({
-        autoplay: false,
-        autoplaySpeed: 4000,
-        fade: true,
-        prevArrow: $('.prev'),
-        nextArrow: $('.next'),
-    });
-
-    $('.sub-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-      hideTexts();
-      console.log('beforeChange');
-    });
-
-    $('.sub-slider').on('afterChange', function(event, slick, currentSlide, nextSlide){
-      animateTexts();
-      console.log('afterChange');
-    });
-    
-    initTexts();
-    animateTexts();
-  }
-
   // animate search box
   var searchButton = function() {
     // search box toggle
