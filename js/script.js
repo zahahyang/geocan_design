@@ -2,7 +2,7 @@
 
   "use strict";
 
-  // init Isotope
+  // init porffolio
 	var initIsotope = function () {
 
 		$('.grid').each(function () {
@@ -37,7 +37,7 @@
 
 		});
 	}
-// init Isotope
+// init news
 	var initIsotope = function () {
 
 		$('.grid').each(function () {
@@ -49,7 +49,7 @@
 			var filterValue = $checked.attr('data-filter');
 
 			var $grid = $('.grid').isotope({
-				itemSelector: '.portfolio-item',
+				itemSelector: '.news-item',
 				// layoutMode: 'fitRows',
 				filter: filterValue
 			});
