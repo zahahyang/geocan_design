@@ -2467,6 +2467,17 @@ body.nav-active .nav__block .nav__block-item {
 --------------------------------------------------------------*/
 footer#footer {
   margin-top: 100px;
+  background: #595757;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.copyright{
+  background-color: #595757;
+}
+.copyright p{
+  background-color: #595757;
+  color: #ffffff;
 }
 
 #footer img.footer-logo {
@@ -2486,6 +2497,7 @@ footer#footer {
 
 .footer-menu p {
   line-height: 2;
+  color: #ffffff;
 }
 
 .footer-menu .menu-list i.icon {
@@ -2503,11 +2515,11 @@ footer#footer {
 }
 
 .footer-menu .social-links a {
-  color: #757575;
+  color: #fff;
 }
 
 .footer-menu .social-links a:hover {
-  color: #111;
+  color: #ffffff;
 }
 
 .footer-menu .menu-list li.menu-item {
@@ -2527,7 +2539,7 @@ footer#footer {
 
 .footer-menu .menu-item a:hover {
   padding-left: 20px;
-  color: #111;
+  color: yellow;
 }
 
 .footer-menu .menu-item a:hover:before {
@@ -2542,9 +2554,8 @@ footer#footer {
 
 /* Footer bottom */
 #footer-bottom {
-  border-top: 1px solid #efefef;
   padding-top: 30px;
-  margin-top: 80px;
+  background-color: #595757;
 }
 
 @media only screen and (max-width: 800px) {
