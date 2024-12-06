@@ -4005,7 +4005,7 @@ a.footer{
 }
 .img-fluid {
   max-width: 100%;
-  height: max-content;
+  height: auto;
   position: relative;
   z-index: 0;
 }
