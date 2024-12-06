@@ -4046,7 +4046,7 @@ p.project_title{
 @media only screen and (max-width: 580px) {
   .menu-about{
     width: 75%;
-    margin-top: -50%;
+    margin-top: -20%;
   }
   .menu-list{
     width: 75%;
