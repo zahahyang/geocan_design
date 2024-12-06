@@ -1,84 +1,4 @@
-/*
-Template Name: Archi
-Template URI: https://templatesjungle.com/
-Author: TemplatesJungle
-Author URI: https://templatesjungle.com/
-Description: Archi is specially designed product packaged for Architecture Portfolio by TemplatesJungle.
-Version: 1.1
-*/
 
-/*------------------------------------------------
-
-CSS STRUCTURE:
-
-1. VARIABLES
-
-2. GENERAL TYPOGRAPHY
-  2.1 General Styles
-  2.2 Floating & Alignment
-  2.3 Forms
-  2.4 Lists
-  2.5 Code
-  2.6 Tables
-  2.7 Spacing
-  2.8 Utilities
-  2.9 Misc
-  2.10 Buttons
-    - Button Shapes
-    - Button Color Scheme
-  2.11 Images
-    - Image Hover Effects
-
-3. EXTENDED TYPOGRAPHY
-  3.1 Blockquote / Pullquote
-  3.2 Dropcap
-  3.3 Text Highlights
-  3.4 Code & Pre
-
-4. SITE STRUCTURE
-  4.1 Header
-    - Logo
-    - Header Menu
-    - Dropdown menu
-    - Sticky Header
-    - Header Search Form
-    - Side Nav Bar
-    - Overlay Navigation
-  4.2 Homepage Slider
-  4.3 Section
-    - Hero Section
-    - Section Title
-    - Section Paddings
-    - Section Margins
-    - Section Bg Colors
-    - Content colors
-  4.4 Homepage section
-    - About us
-    - Services
-    - Subscribe
-  4.4 Footer
-
-5. CONTENT ELEMENTS
-  5.1 Tabs
-  5.2 Accordions
-  5.3 Contact
-    - Contact form light
-  5.4 Iconboxes
-  5.5 Testimonials
-  5.6 Portfolio Tabs
-  5.7 Post Grid
-
-6. BLOG STYLES
-  6.1 Blog Single Post
-  6.2 Post content
-  6.3 About Author
-  6.4 Comments List
-  6.5 Comments Form
-  
-7. WIDGET STYLES
-  7.1 Gallery Widget
-
-------------------------------------------------*/
 .text-light {
   --bs-text-opacity: 0.6;
 }
@@ -4008,7 +3928,10 @@ section#portfolio-details{
   padding-top: 100px;
   padding-bottom: 60px;
 }
-
+.btn-wrap.portfolio {
+  margin-left: 20px;
+  margin-top: -30px;
+}
 @media only screen and (max-width: 1199px) {
 
 }
