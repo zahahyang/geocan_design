@@ -4030,26 +4030,26 @@ input.form-control.name{
   background: transparent;
 }
 
-input.form-control.name::placeholder{
-  color: #757575;
+input.form-control.name::placeholder {
+  color: #757575 !important;
   position: absolute;
   left:30px;  
   top: 13px;
 }
 input.form-control.name::-webkit-input-placeholder {
-  color: #757575;
+  color: #757575 !important;
   position: absolute;
   left:30px;  
   top: 13px;
 }
 input.form-control.name::-moz-placeholder {
-  color: #757575;
+  color: #757575 !important;
   position: absolute;
   left:30px;  
   top: 13px;
 }
 input.form-control.name:-ms-input-placeholder  {
-  color: #757575;
+  color: #757575 !important;
   position: absolute;
   left:30px;  
   top: 13px;
@@ -4060,28 +4060,28 @@ input.form-control.email{
   background: transparent;
 }
 input.form-control.email::placeholder{
-  color: #757575;
+  color: #757575 !important;
   position: absolute;
   left:30px;  
   top: 13px;
 
 }
 input.form-control.email::-webkit-input-placeholder {
-  color: #757575;
+  color: #757575 !important;
   position: absolute;
   left:30px;  
   top: 13px;
 
 }
 input.form-control.email::-moz-placeholder {
-  color: #757575;
+  color: #757575 !important;
   position: absolute;
   left:30px;  
   top: 13px;
 
 }
 input.form-control.email::-ms-input-placeholder {
-  color: #757575;
+  color: #757575 !important;
   position: absolute;
   left:30px;  
   top: 13px;
@@ -4093,25 +4093,25 @@ textarea.form-control.message{
   background: transparent;
 }
 textarea.form-control.message::-webkit-input-placeholder{
-  color: #757575;
+  color: #757575 !important;
   position: absolute;
   left:30px;  
   top: 20px;
 }
 textarea.form-control.message::-moz-placeholder {
-  color: #757575;
+  color: #757575 !important;
   position: absolute;
   left:30px;  
   top: 20px;
 }
 textarea.form-control.message::-ms-input-placeholder {
-  color: #757575;
+  color: #757575 !important;
   position: absolute;
   left:30px;  
   top: 20px;
 }
 textarea.form-control.message::placeholder{
-  color: #757575;
+  color: #757575 !important;
   position: absolute;
   left:30px;  
   top: 20px;
