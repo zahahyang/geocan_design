@@ -3278,6 +3278,7 @@ ol.breadcrumb {
 }
 /* About us*/
 
+
 p.subtitle{
   font-size: 1.6em;
   font-weight: 800;
@@ -3403,11 +3404,10 @@ p.subtitle_information.visual{
     width: 100%;
     margin-top: 20px;
   }
-  p.subtitle_information {
-    font-size: 1.15em;
-    letter-spacing: 1px;
-    width: 90%;
-}
+  section#contact_1{
+    margin-top: -5px;
+  }
+  
 }
 
 
@@ -3432,6 +3432,68 @@ p.subtitle_information.visual{
   #about figure{
     margin-right: 0;
   }
+  p.subtitle_information {
+    font-size: 1.15em;
+    letter-spacing: 1px;
+    width: 90%;
+}
+  .single-image.about{
+    margin-top: -48px;
+  }
+  h2.section-title.about{
+    width: 100%;
+    text-align: center;
+    margin-left: -50px;
+  }
+  p.subtitle.about{
+    text-align: center;
+    margin-left: -100px;
+    margin-top: -20px;
+  }
+  .section-title.service.about{
+    text-align: center;
+  }
+  p.subtitle.service.about{
+    margin-top: -30px;
+  }
+  p.subtitle_informatio.about{
+    width: 100%;
+  }
+  .service_photo.about {
+    width: 105.5%;
+    margin-top: -40px;
+    margin-left: -5px;
+  }
+  .visual_service.about{
+    position: relative;
+    margin-left: 40px;
+    margin-top: -50px;
+  }
+  p.subtitle_information.visual.about{
+    width: 100%;
+  }
+  p.subtitle.teams{
+    text-align: center;
+    margin-top: -1em;
+    margin-left: -155px;
+}
+
+  section#latest-blog{
+    margin-top: -75px;
+
+  }
+  h2.section-title.service.team{
+    margin-left: -20px;
+  }
+  .services-item.service.about {
+    padding-left: 2.5rem;
+    padding-top: 0rem;
+    padding-right: 2rem;
+  }
+  .services-item.visual-service.about {
+    padding-left: 1em;
+    padding-top: 0em;
+} 
 }
 /* Our Teams*/
 p.subtitle.teams{
@@ -3810,8 +3872,16 @@ p.subtitle_information.visual.title1 {
   margin-left: -12px;
   margin-top: 270px;
 }
-
+.row.portfolio_filters {
+  position: relative;
+  width: 100%;
+  height: auto;
 }
+section#contact_portfolio{
+  margin-top: -100px;
+}
+}
+
 /* popup 彈跳 Overley */
 @media only screen and (max-width: 1199px) {
 
