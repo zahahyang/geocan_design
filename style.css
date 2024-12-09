@@ -4119,7 +4119,7 @@ p.project_title{
     margin-top: -10%;
   }
   .menu-list{
-    width: 75%;
+    width: 100%;
   }
   p.project_title {
     position: absolute;
@@ -4135,7 +4135,10 @@ p.project_title{
   a.contact {
     font-size: 25px;
     margin-left: -7px;
-    padding-right: 20px;
+    padding-right: 10px;
+}
+.iconbox .detail p {
+  font-style:14px;
 }
 }
 
