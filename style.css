@@ -4215,7 +4215,27 @@ p.service_subtilte {
   width: 110%;
 }
 }
+/* Footer Bottom */
+.privacy{
+  float:right;
+  text-align: right;
+}
+a.privacy{
+  text-align: left;
+  color: #ffff;
+  padding-left: 40px;
 
+}
+a.termsofus{
+  text-align: right;
+  color: #ffff;
 
+}
 
+/* 隱私權與使用條款 */
+p.subtitle_list_title{
+  font-weight: 600;
+  color: #000;
+  font-size: 18px;
+}
 
