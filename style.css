@@ -4024,95 +4024,22 @@ section#portfolio-details{
 input.form-control.name{
   height: 50px;
   border-radius: 15px;
-  background: transparent;
+  background: #fff;
 }
 
-input.form-control.name::placeholder {
-  color: #eeee !important;
-  position: absolute;
-  left:30px;  
-  top: 13px;
-}
-input.form-control.name::-webkit-input-placeholder {
-  color: #eeee !important;
-  position: absolute;
-  left:30px;  
-  top: 13px;
-}
-input.form-control.name::-moz-placeholder {
-  color: #eeee !important;
-  position: absolute;
-  left:30px;  
-  top: 13px;
-}
-input.form-control.name:-ms-input-placeholder  {
-  color: #eeee !important;
-  position: absolute;
-  left:30px;  
-  top: 13px;
-}
 input.form-control.email{
   height: 50px;
   border-radius: 15px;
-  background: transparent;
+  background: #ffff;
 }
-input.form-control.email::placeholder{
-  color: #eeee !important;
-  position: absolute;
-  left:30px;  
-  top: 13px;
 
-}
-input.form-control.email::-webkit-input-placeholder {
-  color: #eeee !important;
-  position: absolute;
-  left:30px;  
-  top: 13px;
 
-}
-input.form-control.email::-moz-placeholder {
-  color: #eeee !important;
-  position: absolute;
-  left:30px;  
-  top: 13px;
-
-}
-input.form-control.email::-ms-input-placeholder {
-  color: #eeee !important;
-  position: absolute;
-  left:30px;  
-  top: 13px;
-
-}
 textarea.form-control.message{
   height: 100px;
   border-radius: 15px;
-  background: transparent;
+  background: #fffff;
 }
-textarea.form-control.message::-webkit-input-placeholder{
-  color: #eeee !important;
-  position: absolute;
-  left:30px;  
-  top: 20px;
-}
-textarea.form-control.message::-moz-placeholder {
-  color: #eeee !important;
-  position: absolute;
-  left:30px;  
-  top: 20px;
-}
-textarea.form-control.message::-ms-input-placeholder {
-  color: #eeee !important;
-  position: absolute;
-  left:30px;  
-  top: 20px;
-}
-textarea.form-control.message::placeholder{
-  color: #eeee !important;
-  position: absolute;
-  left:30px;  
-  top: 20px;
-}
+
 .btn-block.contact{
   background-color: #e24252;
   border-radius: 10px;
