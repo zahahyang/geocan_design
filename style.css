@@ -4025,12 +4025,14 @@ input.form-control.name{
   height: 50px;
   border-radius: 15px;
   background: #fff;
+  color: #000;
 }
 
 input.form-control.email{
   height: 50px;
   border-radius: 15px;
   background: #ffff;
+  color: #000;
 }
 
 
@@ -4038,6 +4040,7 @@ textarea.form-control.message{
   height: 100px;
   border-radius: 15px;
   background: #fffff;
+  color: #000;
 }
 
 .btn-block.contact{
