@@ -4259,7 +4259,10 @@ a.privacy{
 a.termsofus{
   color: #ffffff;
 }
-
+::placeholder{
+  background-color: #ffff;
+  color: #eee;
+}
 @media screen and (max-width: 580px) {
   .btn-wrap.index {
       text-align: center;
